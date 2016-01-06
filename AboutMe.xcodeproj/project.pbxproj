@@ -77,10 +77,8 @@
 		C301B5FC1C3D9A1E0020609A /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
-				C301B5FD1C3D9A1E0020609A /* AppDelegate.swift */,
-				C301B5FF1C3D9A1E0020609A /* ViewController.swift */,
-				C301B6011C3D9A1E0020609A /* Main.storyboard */,
-				C301B6041C3D9A1E0020609A /* Assets.xcassets */,
+				C301B61E1C3D9B640020609A /* View */,
+				C301B61D1C3D9B420020609A /* Controller */,
 				C301B6061C3D9A1E0020609A /* LaunchScreen.storyboard */,
 				C301B6091C3D9A1E0020609A /* Info.plist */,
 			);
@@ -94,6 +92,24 @@
 				C301B6141C3D9A1E0020609A /* Info.plist */,
 			);
 			path = AboutMeTests;
+			sourceTree = "<group>";
+		};
+		C301B61D1C3D9B420020609A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C301B5FD1C3D9A1E0020609A /* AppDelegate.swift */,
+				C301B5FF1C3D9A1E0020609A /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C301B61E1C3D9B640020609A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C301B6011C3D9A1E0020609A /* Main.storyboard */,
+				C301B6041C3D9A1E0020609A /* Assets.xcassets */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AboutMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ctec.AboutMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AboutMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ctec.AboutMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
