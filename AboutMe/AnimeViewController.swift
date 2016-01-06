@@ -11,6 +11,12 @@ import UIKit
 
 class AnimeViewController : UIViewController
 {
+    
+    @IBAction func changeToIntro(sender: UIButton)
+    {
+        performSegueWithIdentifier("toIntroFromAnime", sender: sender)
+    }
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()

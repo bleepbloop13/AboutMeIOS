@@ -11,6 +11,32 @@ import UIKit
 class ViewController: UIViewController
 {
 
+    @IBAction func changeToAnime(sender: UIButton)
+    {
+        performSegueWithIdentifier("toAnimeFromIntro", sender: sender)
+    }
+    
+    
+    @IBAction func changeToVideoGames(sender: UIButton)
+    {
+        performSegueWithIdentifier("toVideoGamesFromIntro", sender: sender)
+    }
+    
+    @IBAction func changeToCardGames(sender: UIButton)
+    {
+        performSegueWithIdentifier("toCardGamesFromIntro", sender: sender)
+    }
+    
+    @IBAction func changeToFood(sender: UIButton)
+    {
+        performSegueWithIdentifier("toFoodFromIntro", sender: sender)
+    }
+    
+    @IBAction func changeToChoir(sender: UIButton)
+    {
+        performSegueWithIdentifier("toChoirFromIntro", sender: sender)
+    }
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
