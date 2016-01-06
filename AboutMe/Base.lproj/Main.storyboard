@@ -5,73 +5,118 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--About Me!-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="About Me!" id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.81984340440000003" green="1" blue="0.26513447159999998" alpha="0.68999999999999995" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.81984340438270464" green="1" blue="0.26513447163847714" alpha="0.69000000000000006" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="221" y="-106"/>
         </scene>
-        <!--View Controller-->
+        <!--Card Games-->
         <scene sceneID="6z8-0A-XdG">
             <objects>
-                <viewController id="nln-PU-h9M" sceneMemberID="viewController">
+                <viewController title="Card Games" id="nln-PU-h9M" customClass="CardGamesViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MAW-ZX-qdz"/>
                         <viewControllerLayoutGuide type="bottom" id="rXA-WA-7bL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="v0N-9P-7kB">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.28167199778662178" green="0.70308265561188032" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YvT-gm-eWV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="215" y="687"/>
+            <point key="canvasLocation" x="221" y="695"/>
         </scene>
-        <!--View Controller-->
+        <!--Video Games-->
+        <scene sceneID="Ra4-rK-FTU">
+            <objects>
+                <viewController title="Video Games" id="Z4q-Cp-EL8" customClass="VideoGamesViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j68-KM-Fq7"/>
+                        <viewControllerLayoutGuide type="bottom" id="ekX-Vq-z2Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R4p-Lr-sp3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.82086489898989901" green="0.43560010319014969" blue="0.54655463114794256" alpha="0.65000000000000002" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HwM-I6-Qf5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="221" y="1519"/>
+        </scene>
+        <!--Choir-->
+        <scene sceneID="VpI-pH-sQs">
+            <objects>
+                <viewController title="Choir" id="SVg-pI-rxJ" customClass="ChoirViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="S7u-sp-TOu"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nut-1V-Krq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CwH-dc-Z7w">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.010823467656763008" green="1" blue="0.85866825958802206" alpha="0.28999999999999998" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OCL-WH-nah" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="1519"/>
+        </scene>
+        <!--Food-->
         <scene sceneID="DQF-3a-WAa">
             <objects>
-                <viewController id="IEy-DT-pbI" sceneMemberID="viewController">
+                <viewController title="Food" id="IEy-DT-pbI" customClass="FoodViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GZV-cl-0t0"/>
                         <viewControllerLayoutGuide type="bottom" id="Mjj-Es-pWx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3gi-PF-kbC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.18610104929999999" blue="0.17683424750000001" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="0.18610104929999999" blue="0.17683424750000001" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nsN-jF-xQh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="847" y="687"/>
+            <point key="canvasLocation" x="844" y="695"/>
         </scene>
-        <!--View Controller-->
+        <!--Anime-->
         <scene sceneID="Jw9-k3-wU0">
             <objects>
-                <viewController id="6N2-sL-yeJ" sceneMemberID="viewController">
+                <viewController title="Anime" id="6N2-sL-yeJ" customClass="AnimeViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Ti-nz-mcP"/>
                         <viewControllerLayoutGuide type="bottom" id="BRp-t2-DhV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="czz-a9-V1w">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.22993474869145825" blue="0.69425828153060398" alpha="0.5" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zd8-sQ-GCT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

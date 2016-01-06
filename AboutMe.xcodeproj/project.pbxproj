@@ -13,6 +13,11 @@
 		C301B6051C3D9A1E0020609A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C301B6041C3D9A1E0020609A /* Assets.xcassets */; };
 		C301B6081C3D9A1E0020609A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C301B6061C3D9A1E0020609A /* LaunchScreen.storyboard */; };
 		C301B6131C3D9A1E0020609A /* AboutMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C301B6121C3D9A1E0020609A /* AboutMeTests.swift */; };
+		C301B6201C3D9EE90020609A /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C301B61F1C3D9EE90020609A /* FoodViewController.swift */; };
+		C301B6221C3D9F220020609A /* AnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C301B6211C3D9F220020609A /* AnimeViewController.swift */; };
+		C301B6241C3D9F480020609A /* CardGamesViewConrtroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C301B6231C3D9F480020609A /* CardGamesViewConrtroller.swift */; };
+		C301B6261C3D9FA60020609A /* VideoGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C301B6251C3D9FA60020609A /* VideoGamesViewController.swift */; };
+		C301B6281C3D9FE70020609A /* ChoirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C301B6271C3D9FE70020609A /* ChoirViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		C301B60E1C3D9A1E0020609A /* AboutMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C301B6121C3D9A1E0020609A /* AboutMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeTests.swift; sourceTree = "<group>"; };
 		C301B6141C3D9A1E0020609A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C301B61F1C3D9EE90020609A /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		C301B6211C3D9F220020609A /* AnimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeViewController.swift; sourceTree = "<group>"; };
+		C301B6231C3D9F480020609A /* CardGamesViewConrtroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardGamesViewConrtroller.swift; sourceTree = "<group>"; };
+		C301B6251C3D9FA60020609A /* VideoGamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoGamesViewController.swift; sourceTree = "<group>"; };
+		C301B6271C3D9FE70020609A /* ChoirViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoirViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				C301B5FD1C3D9A1E0020609A /* AppDelegate.swift */,
 				C301B5FF1C3D9A1E0020609A /* ViewController.swift */,
+				C301B61F1C3D9EE90020609A /* FoodViewController.swift */,
+				C301B6211C3D9F220020609A /* AnimeViewController.swift */,
+				C301B6231C3D9F480020609A /* CardGamesViewConrtroller.swift */,
+				C301B6251C3D9FA60020609A /* VideoGamesViewController.swift */,
+				C301B6271C3D9FE70020609A /* ChoirViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -214,6 +229,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C301B6001C3D9A1E0020609A /* ViewController.swift in Sources */,
+				C301B6241C3D9F480020609A /* CardGamesViewConrtroller.swift in Sources */,
+				C301B6281C3D9FE70020609A /* ChoirViewController.swift in Sources */,
+				C301B6261C3D9FA60020609A /* VideoGamesViewController.swift in Sources */,
+				C301B6221C3D9F220020609A /* AnimeViewController.swift in Sources */,
+				C301B6201C3D9EE90020609A /* FoodViewController.swift in Sources */,
 				C301B5FE1C3D9A1E0020609A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
