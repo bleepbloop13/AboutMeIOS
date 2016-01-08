@@ -16,6 +16,22 @@ class AnimeViewController : UIViewController
     {
         performSegueWithIdentifier("toIntroFromAnime", sender: sender)
     }
+    @IBAction func changeToVideoGames(sender: UIButton)
+    {
+        performSegueWithIdentifier("toVideoGamesFromAnime", sender: sender)
+    }
+    @IBAction func changeToCardGames(sender: UIButton)
+    {
+        performSegueWithIdentifier("toCardGamesFromAnime", sender: sender)
+    }
+    @IBAction func changeToChoir(sender: UIButton)
+    {
+        performSegueWithIdentifier("toChoirFromAnime", sender: sender)
+    }
+    @IBAction func changeToFood(sender: UIButton)
+    {
+        performSegueWithIdentifier("toFoodFromAnime", sender: sender)
+    }
     
     override func viewDidLoad()
     {

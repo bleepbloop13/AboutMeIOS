@@ -11,6 +11,21 @@ import UIKit
 
 class ChoirViewController : UIViewController
 {
+    @IBAction func changeToIntro(sender: UIButton) {
+        performSegueWithIdentifier("toIntroFromChoir", sender: sender)
+    }
+    @IBAction func changeToVideoGames(sender: UIButton) {
+        performSegueWithIdentifier("toVideoGamesFromChoir", sender: sender)
+    }
+    @IBAction func changeToCardGames(sender: UIButton) {
+        performSegueWithIdentifier("toCardGamesFromChoir", sender: sender)
+    }
+    @IBAction func changeToAnime(sender: UIButton) {
+        performSegueWithIdentifier("toAnimeFromChoir", sender: sender)
+    }
+    @IBAction func changeToFood(sender: UIButton) {
+        performSegueWithIdentifier("toFoodFromChoir", sender: sender)
+    }
     override func viewDidLoad()
     {
         super.viewDidLoad()

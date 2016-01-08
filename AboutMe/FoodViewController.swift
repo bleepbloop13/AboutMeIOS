@@ -11,6 +11,27 @@ import UIKit
 
 class FoodViewController : UIViewController
 {
+    @IBAction func changeToIntro(sender: UIButton)
+    {
+        performSegueWithIdentifier("toIntroFromFood", sender: sender)
+    }
+    @IBAction func changeToVideoGames(sender: UIButton)
+    {
+        performSegueWithIdentifier("toVideoGamesFromFood", sender: sender)
+    }
+    @IBAction func changeToCardGames(sender: UIButton)
+    {
+        performSegueWithIdentifier("toCardGamesFromFood", sender: sender)
+    }
+    @IBAction func changeToChoir(sender: UIButton)
+    {
+        performSegueWithIdentifier("toChoirFromFood", sender: sender)
+    }
+    @IBAction func changeToAnime(sender: UIButton)
+    {
+        performSegueWithIdentifier("toAnimeFromFood", sender: sender)
+    }
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()

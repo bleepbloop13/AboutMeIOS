@@ -21,67 +21,68 @@
                                 <rect key="frame" x="20" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <state key="normal" title="Intro">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpU-n5-lxt">
                                 <rect key="frame" x="151" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Anime">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Video Games">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="changeToAnime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6ra-vf-SPU"/>
+                                    <action selector="changeToVideoGames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tfc-Dy-Fhf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cR5-9t-X18">
                                 <rect key="frame" x="276" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <size key="titleShadowOffset" width="4" height="4"/>
-                                <state key="normal" title="Video Games">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Card Games">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="changeToVideoGames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aTi-jc-9hD"/>
+                                    <action selector="changeToCardGames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GJP-04-O8t"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u77-iY-03U">
                                 <rect key="frame" x="276" y="85" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Choir">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Food">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="changeToChoir:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OSd-A2-sA4"/>
+                                    <action selector="changeToFood:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gc9-mO-dk1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7CT-or-Ffb">
                                 <rect key="frame" x="151" y="85" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Food">
+                                <state key="normal" title="Anime">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="changeToFood:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sDb-11-6c2"/>
+                                    <action selector="changeToAnime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uz7-Ha-qfe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-8L-kJP">
                                 <rect key="frame" x="20" y="85" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Card Games">
+                                <state key="normal" title="Choir">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="changeToCardGames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="blK-X4-nFU"/>
+                                    <action selector="changeToChoir:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gl4-db-Dzd"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UN6-JR-ZfZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new_intro_pic" translatesAutoresizingMaskIntoConstraints="NO" id="UN6-JR-ZfZ">
                                 <rect key="frame" x="20" y="161" width="374" height="218"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbR-CO-RxO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbR-CO-RxO">
                                 <rect key="frame" x="20" y="387" width="374" height="272"/>
+                                <string key="text">My name is Rory Tandberg Baker. I’m a 16 year old male student enrolled in Computer Programming at the Canyons Technical Education Center. As part of an assignment this app I have created will tell you about my personal interests. Thank you!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -90,11 +91,11 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="6N2-sL-yeJ" kind="presentation" identifier="toAnimeFromIntro" id="i3F-c2-uF1"/>
-                        <segue destination="nln-PU-h9M" kind="presentation" identifier="toCardGamesFromIntro" id="HnJ-R2-tiD"/>
-                        <segue destination="IEy-DT-pbI" kind="presentation" identifier="toFoodFromIntro" id="XlA-yP-pcI"/>
-                        <segue destination="Z4q-Cp-EL8" kind="presentation" identifier="toVideoGamesFromIntro" id="f5b-PJ-S2r"/>
-                        <segue destination="SVg-pI-rxJ" kind="presentation" identifier="toChoirFromIntro" id="KcV-8w-UpY"/>
+                        <segue destination="6N2-sL-yeJ" kind="presentation" identifier="toAnimeFromIntro" animates="NO" id="i3F-c2-uF1"/>
+                        <segue destination="nln-PU-h9M" kind="presentation" identifier="toCardGamesFromIntro" animates="NO" id="HnJ-R2-tiD"/>
+                        <segue destination="IEy-DT-pbI" kind="presentation" identifier="toFoodFromIntro" animates="NO" id="XlA-yP-pcI"/>
+                        <segue destination="Z4q-Cp-EL8" kind="presentation" identifier="toVideoGamesFromIntro" animates="NO" id="f5b-PJ-S2r"/>
+                        <segue destination="SVg-pI-rxJ" kind="presentation" identifier="toChoirFromIntro" animates="NO" id="KcV-8w-UpY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -119,49 +120,65 @@
                                 <state key="normal" title="Intro">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToIntro:" destination="nln-PU-h9M" eventType="touchUpInside" id="hXn-61-Oal"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARi-Qi-ZYW">
                                 <rect key="frame" x="151" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Anime">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1g-XX-QZx">
-                                <rect key="frame" x="276" y="47" width="110" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <state key="normal" title="Video Games">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToVideoGames:" destination="nln-PU-h9M" eventType="touchUpInside" id="Lfp-X2-ICY"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Usc-ig-eZP">
-                                <rect key="frame" x="20" y="86" width="110" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1g-XX-QZx">
+                                <rect key="frame" x="276" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <state key="normal" title="Card Games">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHr-1e-Dqb">
-                                <rect key="frame" x="151" y="86" width="110" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Food">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5U-kb-Rx5">
-                                <rect key="frame" x="276" y="86" width="110" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Usc-ig-eZP">
+                                <rect key="frame" x="20" y="86" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <state key="normal" title="Choir">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToChoir:" destination="nln-PU-h9M" eventType="touchUpInside" id="ThT-TO-DSM"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knb-YW-3cW">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHr-1e-Dqb">
+                                <rect key="frame" x="151" y="86" width="110" height="30"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
+                                <state key="normal" title="Anime">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeToAnime:" destination="nln-PU-h9M" eventType="touchUpInside" id="U7U-Yd-Xc2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5U-kb-Rx5">
+                                <rect key="frame" x="276" y="86" width="110" height="30"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
+                                <state key="normal" title="Food">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeToFood:" destination="nln-PU-h9M" eventType="touchUpInside" id="hHs-Qn-8dG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knb-YW-3cW">
                                 <rect key="frame" x="20" y="387" width="374" height="272"/>
+                                <string key="text">Since 2011 I have worked for my Dad at his store, Hastur Games and Comics. In working there, I became involved in the card game, Magic the Gathering. I enjoy the game immensely, and often try to find time to play before and after school. Since last year, I have been the head of the Corner Canyon Card Game Club, meeting weekly to play various games, but with a heavy focus on MTG.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="amD-33-J8h">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mtg_pic" translatesAutoresizingMaskIntoConstraints="NO" id="amD-33-J8h">
                                 <rect key="frame" x="20" y="161" width="374" height="218"/>
                             </imageView>
                         </subviews>
@@ -169,11 +186,11 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toIntroFromCardGames" id="Nfy-bA-31A"/>
-                        <segue destination="6N2-sL-yeJ" kind="presentation" identifier="toAnimeFromCardGames" id="9RT-cC-Mef"/>
-                        <segue destination="IEy-DT-pbI" kind="presentation" identifier="toFoodFromCardGames" id="Tt0-52-6Ol"/>
-                        <segue destination="Z4q-Cp-EL8" kind="presentation" identifier="toVideoGamesFromCardGames" id="SCW-95-QYw"/>
-                        <segue destination="SVg-pI-rxJ" kind="presentation" identifier="toChoirFromCardGames" id="qJN-Hj-ppi"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toIntroFromCardGames" animates="NO" id="Nfy-bA-31A"/>
+                        <segue destination="6N2-sL-yeJ" kind="presentation" identifier="toAnimeFromCardGames" animates="NO" id="9RT-cC-Mef"/>
+                        <segue destination="IEy-DT-pbI" kind="presentation" identifier="toFoodFromCardGames" animates="NO" id="Tt0-52-6Ol"/>
+                        <segue destination="Z4q-Cp-EL8" kind="presentation" identifier="toVideoGamesFromCardGames" animates="NO" id="SCW-95-QYw"/>
+                        <segue destination="SVg-pI-rxJ" kind="presentation" identifier="toChoirFromCardGames" animates="NO" id="qJN-Hj-ppi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YvT-gm-eWV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -198,49 +215,65 @@
                                 <state key="normal" title="Intro">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToIntro:" destination="Z4q-Cp-EL8" eventType="touchUpInside" id="OkD-7r-ctq"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="472-jU-gRz">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="472-jU-gRz">
                                 <rect key="frame" x="151" y="47" width="110" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Anime">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scA-rg-cXT">
-                                <rect key="frame" x="276" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <state key="normal" title="Video Games">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P28-Qf-zcN">
-                                <rect key="frame" x="20" y="86" width="110" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scA-rg-cXT">
+                                <rect key="frame" x="276" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <state key="normal" title="Card Games">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToCardGames:" destination="Z4q-Cp-EL8" eventType="touchUpInside" id="tcp-2s-vFz"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smh-q6-1Oz">
-                                <rect key="frame" x="151" y="86" width="110" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Food">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fb0-LZ-zGb">
-                                <rect key="frame" x="276" y="86" width="110" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P28-Qf-zcN">
+                                <rect key="frame" x="20" y="86" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <state key="normal" title="Choir">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToChoir:" destination="Z4q-Cp-EL8" eventType="touchUpInside" id="ocW-sz-dTA"/>
+                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8LS-Os-Fby">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smh-q6-1Oz">
+                                <rect key="frame" x="151" y="86" width="110" height="30"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
+                                <state key="normal" title="Anime">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeToAnime:" destination="Z4q-Cp-EL8" eventType="touchUpInside" id="2hh-Lp-qIL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fb0-LZ-zGb">
+                                <rect key="frame" x="276" y="86" width="110" height="30"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
+                                <state key="normal" title="Food">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeToFood:" destination="Z4q-Cp-EL8" eventType="touchUpInside" id="wMQ-wt-AlT"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimeogames" translatesAutoresizingMaskIntoConstraints="NO" id="8LS-Os-Fby">
                                 <rect key="frame" x="20" y="161" width="374" height="218"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iM5-rZ-Tzn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iM5-rZ-Tzn">
                                 <rect key="frame" x="20" y="387" width="374" height="272"/>
+                                <string key="text">Video games have been a part of my life for as long as I can remember. I got my own computer at a very age, and played Diablo 2, World of Warcraft, and Halo: Combat Evolved for several years. Around 2004 I got my first console, which was the GameCube. The first games I owned were Simpsons Hit and Run, and The Legend of Zelda: The Windwaker. I played Simpsons Hit and Run more because I didn’t really understand Zelda at the time. Since then I have been heavily involved in both PC and Console games.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -248,11 +281,11 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="SVg-pI-rxJ" kind="presentation" identifier="toChoirFromVideoGames" id="jD8-cV-r0g"/>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toIntroFromVideoGames" id="y2k-m4-3h1"/>
-                        <segue destination="6N2-sL-yeJ" kind="presentation" identifier="toAnimeFromVideoGames" id="MPy-QY-xaA"/>
-                        <segue destination="nln-PU-h9M" kind="presentation" identifier="toCardGamesFromVideoGames" id="k64-xC-3d4"/>
-                        <segue destination="IEy-DT-pbI" kind="presentation" identifier="toFoodFromVideoGames" id="9i2-FL-8Sz"/>
+                        <segue destination="SVg-pI-rxJ" kind="presentation" identifier="toChoirFromVideoGames" animates="NO" id="jD8-cV-r0g"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toIntroFromVideoGames" animates="NO" id="y2k-m4-3h1"/>
+                        <segue destination="6N2-sL-yeJ" kind="presentation" identifier="toAnimeFromVideoGames" animates="NO" id="MPy-QY-xaA"/>
+                        <segue destination="nln-PU-h9M" kind="presentation" identifier="toCardGamesFromVideoGames" animates="NO" id="k64-xC-3d4"/>
+                        <segue destination="IEy-DT-pbI" kind="presentation" identifier="toFoodFromVideoGames" animates="NO" id="9i2-FL-8Sz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HwM-I6-Qf5" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -277,49 +310,65 @@
                                 <state key="normal" title="Intro">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToIntro:" destination="SVg-pI-rxJ" eventType="touchUpInside" id="6dS-mp-jHC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXm-oi-zrz">
                                 <rect key="frame" x="151" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Anime">
+                                <state key="normal" title="Video Games">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToVideoGames:" destination="SVg-pI-rxJ" eventType="touchUpInside" id="Tb9-cW-yaw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tf8-T9-xQP">
                                 <rect key="frame" x="276" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Video Games">
+                                <state key="normal" title="Card Games">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToCardGames:" destination="SVg-pI-rxJ" eventType="touchUpInside" id="IfJ-63-Dya"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xo-XN-Ofy">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xo-XN-Ofy">
                                 <rect key="frame" x="20" y="86" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Card Games">
+                                <state key="normal" title="Choir">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsv-Ma-RWc">
                                 <rect key="frame" x="151" y="86" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
+                                <state key="normal" title="Anime">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeToAnime:" destination="SVg-pI-rxJ" eventType="touchUpInside" id="Yif-6y-JYU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNz-Gp-ehV">
+                                <rect key="frame" x="276" y="86" width="110" height="30"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <state key="normal" title="Food">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToFood:" destination="SVg-pI-rxJ" eventType="touchUpInside" id="qcm-V8-OLe"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNz-Gp-ehV">
-                                <rect key="frame" x="276" y="86" width="110" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Choir">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="105-IB-8pc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="105-IB-8pc">
                                 <rect key="frame" x="20" y="387" width="374" height="272"/>
+                                <string key="text">When I was in middle school, everybody had to take a class called “Music Connections”. I found myself enjoying the class, and eventually joined the school’s choir the following year. When I entered high school, I continued singing in the Men’s Chorus, and had a really great time. At the end of the year, I auditioned for the Chamber Singers, and made it into the class. Choir has been a major influence on my life since then, and I look forward to doing it more later in life.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q4n-qc-qM1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new_choir_pic" translatesAutoresizingMaskIntoConstraints="NO" id="Q4n-qc-qM1">
                                 <rect key="frame" x="20" y="161" width="374" height="218"/>
                             </imageView>
                         </subviews>
@@ -328,11 +377,11 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="Z4q-Cp-EL8" kind="presentation" identifier="toVideoGamesFromChoir" id="AWl-sE-byC"/>
-                        <segue destination="nln-PU-h9M" kind="presentation" identifier="toCardGamesFromChoir" id="ewI-8f-aT1"/>
-                        <segue destination="IEy-DT-pbI" kind="presentation" identifier="toFoodFromChoir" id="sBq-a2-NeV"/>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toIntroFromChoir" id="Qgg-SX-WOL"/>
-                        <segue destination="6N2-sL-yeJ" kind="presentation" identifier="toAnimeFromChoir" id="20Q-9W-LSz"/>
+                        <segue destination="Z4q-Cp-EL8" kind="presentation" identifier="toVideoGamesFromChoir" animates="NO" id="AWl-sE-byC"/>
+                        <segue destination="nln-PU-h9M" kind="presentation" identifier="toCardGamesFromChoir" animates="NO" id="ewI-8f-aT1"/>
+                        <segue destination="IEy-DT-pbI" kind="presentation" identifier="toFoodFromChoir" animates="NO" id="sBq-a2-NeV"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toIntroFromChoir" animates="NO" id="Qgg-SX-WOL"/>
+                        <segue destination="6N2-sL-yeJ" kind="presentation" identifier="toAnimeFromChoir" animates="NO" id="20Q-9W-LSz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OCL-WH-nah" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -357,62 +406,78 @@
                                 <state key="normal" title="Intro">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToIntro:" destination="IEy-DT-pbI" eventType="touchUpInside" id="oa9-Dy-koz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b04-d5-JqH">
                                 <rect key="frame" x="152" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Anime">
+                                <state key="normal" title="Video Games">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToVideoGames:" destination="IEy-DT-pbI" eventType="touchUpInside" id="33C-PB-Q1q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDa-2D-JUz">
                                 <rect key="frame" x="276" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Video Games">
+                                <state key="normal" title="Card Games">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToCardGames:" destination="IEy-DT-pbI" eventType="touchUpInside" id="hxi-vB-Tn2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVC-2G-tDz">
                                 <rect key="frame" x="20" y="86" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Card Games">
+                                <state key="normal" title="Choir">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToChoir:" destination="IEy-DT-pbI" eventType="touchUpInside" id="IXs-GX-2Qp"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WS5-ze-Wv4">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WS5-ze-Wv4">
                                 <rect key="frame" x="152" y="86" width="110" height="30"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
+                                <state key="normal" title="Anime">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeToAnime:" destination="IEy-DT-pbI" eventType="touchUpInside" id="rlU-2O-cJM"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beef_pic" translatesAutoresizingMaskIntoConstraints="NO" id="Lqx-Wn-qMp">
+                                <rect key="frame" x="20" y="161" width="374" height="218"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDH-7u-5qR">
+                                <rect key="frame" x="20" y="387" width="374" height="272"/>
+                                <string key="text">I’ve been a connoisseur in the realm of food for years. I personally enjoy a medium rare ribeye steak, with a fine horseradish cream. When it comes to sandwiches, I frequent Subway, often ordering my sandwich, “the Blimpie way”, which is a spicy italian on italian white, with provolone, lettuce, tomato, onions, and vinegar and oil. The best pizza for me is definitely a simple Papa John’s Large, with spicy italian sausage and onions. Food is a large part of my life, and allows my life to continue.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2o9-qa-I2K">
+                                <rect key="frame" x="276" y="86" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <state key="normal" title="Food">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2o9-qa-I2K">
-                                <rect key="frame" x="276" y="86" width="110" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Choir">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lqx-Wn-qMp">
-                                <rect key="frame" x="20" y="161" width="374" height="218"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDH-7u-5qR">
-                                <rect key="frame" x="20" y="387" width="374" height="272"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.18610104929999999" blue="0.17683424750000001" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="0.18610104929999999" blue="0.17683424750000001" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="Z4q-Cp-EL8" kind="presentation" identifier="toVideoGamesFromFood" id="rxN-HQ-Ihz"/>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toIntroFromFood" id="Ca6-Ki-vNp"/>
-                        <segue destination="6N2-sL-yeJ" kind="presentation" identifier="toAnimeFromFood" id="Nv6-9H-8z2"/>
-                        <segue destination="nln-PU-h9M" kind="presentation" identifier="toCardGamesFromFood" id="qQo-Pd-Sih"/>
-                        <segue destination="SVg-pI-rxJ" kind="presentation" identifier="toChoirFromFood" id="YeT-bv-RfI"/>
+                        <segue destination="Z4q-Cp-EL8" kind="presentation" identifier="toVideoGamesFromFood" animates="NO" id="rxN-HQ-Ihz"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toIntroFromFood" animates="NO" id="Ca6-Ki-vNp"/>
+                        <segue destination="6N2-sL-yeJ" kind="presentation" identifier="toAnimeFromFood" animates="NO" id="Nv6-9H-8z2"/>
+                        <segue destination="nln-PU-h9M" kind="presentation" identifier="toCardGamesFromFood" animates="NO" id="qQo-Pd-Sih"/>
+                        <segue destination="SVg-pI-rxJ" kind="presentation" identifier="toChoirFromFood" animates="NO" id="YeT-bv-RfI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nsN-jF-xQh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -441,48 +506,61 @@
                                     <action selector="changeToIntro:" destination="6N2-sL-yeJ" eventType="touchUpInside" id="O4r-c1-TvG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRQ-ut-a2Q">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRQ-ut-a2Q">
                                 <rect key="frame" x="151" y="47" width="110" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Anime">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0na-QI-cPS">
-                                <rect key="frame" x="276" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <state key="normal" title="Video Games">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToVideoGames:" destination="6N2-sL-yeJ" eventType="touchUpInside" id="JUL-9Q-9nU"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jw5-xT-xzs">
-                                <rect key="frame" x="20" y="85" width="110" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0na-QI-cPS">
+                                <rect key="frame" x="276" y="47" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <state key="normal" title="Card Games">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToCardGames:" destination="6N2-sL-yeJ" eventType="touchUpInside" id="nJX-Ix-aLI"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6k-bG-ViL">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jw5-xT-xzs">
+                                <rect key="frame" x="20" y="85" width="110" height="30"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
+                                <state key="normal" title="Choir">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeToChoir:" destination="6N2-sL-yeJ" eventType="touchUpInside" id="eQ6-wm-Pva"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6k-bG-ViL">
                                 <rect key="frame" x="151" y="85" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Food">
+                                <state key="normal" title="Anime">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fyk-Vw-Dhe">
                                 <rect key="frame" x="276" y="85" width="110" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Choir">
+                                <state key="normal" title="Food">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeToFood:" destination="6N2-sL-yeJ" eventType="touchUpInside" id="TDo-Le-3P3"/>
+                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sFl-Sh-AyT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="one-punch-man" translatesAutoresizingMaskIntoConstraints="NO" id="sFl-Sh-AyT">
                                 <rect key="frame" x="20" y="161" width="374" height="218"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JsO-Os-l27">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JsO-Os-l27">
                                 <rect key="frame" x="20" y="387" width="374" height="272"/>
+                                <string key="text">The summer before I started middle school, I watched Dragon Ball, as well as its sequels, Dragon Ball Z and Dragon Ball GT. I was enamored by the shows, and through them got into Japanese animation. I’ve completed more than hundred shows, and await more all the time. My personal favorites include One Punch Man, Dragon Ball, Bleach, One Piece, and Black Cat.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -490,11 +568,11 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="nln-PU-h9M" kind="presentation" identifier="toCardGamesFromAnime" id="gDV-NO-rbP"/>
-                        <segue destination="IEy-DT-pbI" kind="presentation" identifier="toFoodFromAnime" id="EzE-Iv-wPB"/>
-                        <segue destination="Z4q-Cp-EL8" kind="presentation" identifier="toVideoGamesFromAnime" id="G22-Dj-Y67"/>
-                        <segue destination="SVg-pI-rxJ" kind="presentation" identifier="toChoirFromAnime" id="nZV-VN-ujj"/>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toIntroFromAnime" id="fo7-hh-5kL"/>
+                        <segue destination="nln-PU-h9M" kind="presentation" identifier="toCardGamesFromAnime" animates="NO" id="gDV-NO-rbP"/>
+                        <segue destination="IEy-DT-pbI" kind="presentation" identifier="toFoodFromAnime" animates="NO" id="EzE-Iv-wPB"/>
+                        <segue destination="Z4q-Cp-EL8" kind="presentation" identifier="toVideoGamesFromAnime" animates="NO" id="G22-Dj-Y67"/>
+                        <segue destination="SVg-pI-rxJ" kind="presentation" identifier="toChoirFromAnime" animates="NO" id="nZV-VN-ujj"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toIntroFromAnime" animates="NO" id="fo7-hh-5kL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zd8-sQ-GCT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -502,12 +580,20 @@
             <point key="canvasLocation" x="1164" y="-458"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="beef_pic" width="267" height="189"/>
+        <image name="mtg_pic" width="900" height="506"/>
+        <image name="new_choir_pic" width="382" height="382"/>
+        <image name="new_intro_pic" width="215" height="382"/>
+        <image name="one-punch-man" width="780" height="718"/>
+        <image name="vimeogames" width="300" height="168"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EzE-Iv-wPB"/>
-        <segue reference="20Q-9W-LSz"/>
-        <segue reference="nZV-VN-ujj"/>
-        <segue reference="gDV-NO-rbP"/>
-        <segue reference="G22-Dj-Y67"/>
-        <segue reference="fo7-hh-5kL"/>
+        <segue reference="rxN-HQ-Ihz"/>
+        <segue reference="9i2-FL-8Sz"/>
+        <segue reference="jD8-cV-r0g"/>
+        <segue reference="y2k-m4-3h1"/>
+        <segue reference="k64-xC-3d4"/>
+        <segue reference="MPy-QY-xaA"/>
     </inferredMetricsTieBreakers>
 </document>

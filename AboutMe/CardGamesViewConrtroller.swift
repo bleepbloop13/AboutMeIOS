@@ -11,14 +11,27 @@ import UIKit
 
 class CardGamesViewController : UIViewController
 {
-    override func viewDidLoad()
-    {
+    @IBAction func changeToIntro(sender: UIButton) {
+        performSegueWithIdentifier("toIntroFromCardGames", sender: sender)
+    }
+    @IBAction func changeToVideoGames(sender: UIButton) {
+        performSegueWithIdentifier("toVideoGamesFromCardGames", sender: sender)
+    }
+    @IBAction func changeToChoir(sender: UIButton) {
+        performSegueWithIdentifier("toChoirFromCardGames", sender: sender)
+    }
+    @IBAction func changeToAnime(sender: UIButton) {
+        performSegueWithIdentifier("toAnimeFromCardGames", sender: sender)
+    }
+    @IBAction func changeToFood(sender: UIButton) {
+        performSegueWithIdentifier("toFoodFromCardGames", sender: sender)
+    }
+    override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    override func didReceiveMemoryWarning()
-    {
+    override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
